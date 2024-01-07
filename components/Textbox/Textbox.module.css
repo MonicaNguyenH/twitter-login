@@ -1,0 +1,36 @@
+.textbox {
+    background-color:var(--white);
+    color: var(--black);
+    font-size: 100%;
+    width: 340px;
+    height: 55px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border-color: var(--grey);
+    margin: 10px;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.button {
+    background-color: var(--white);
+    color: var(--twitter-blue);
+    font-weight: bold;
+    font-size: 100%;
+    width: 350px;
+    height: 55px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    border-color: var(--twitter-blue);
+    margin: 10px;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: var(--grey);
+    opacity: 50%;
+}

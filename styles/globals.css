@@ -1,0 +1,10 @@
+:root {
+  --twitter-blue: #1DA1F2;
+  --black: #000;
+  --grey: #B3B2B2;
+  --white: white;
+}
+
+* {
+  background-color: var(--white);
+}

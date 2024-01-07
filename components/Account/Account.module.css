@@ -1,0 +1,20 @@
+.button {
+    background-color:var(--twitter-blue);
+    color: var(--white);
+    font-weight: bold;
+    font-size: 100%;
+    width: 350px;
+    height: 55px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    margin: 10px;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: var(--grey);
+    color: var(--black);
+    opacity: 50%;
+}
